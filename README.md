@@ -1,0 +1,2 @@
+# bicikli_webshop_frontend_rft
+Debrecen Egyetem Rendszerfejlesztés tárgy csoportos projekt
