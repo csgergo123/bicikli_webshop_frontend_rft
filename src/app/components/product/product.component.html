@@ -1,0 +1,28 @@
+<html>
+<head>
+</head>
+<body>
+  <br />
+  <br />
+        <table>
+          <tr>
+            <td class="bal">
+              ide is irok valamit <br />
+              mert ide jon a kep
+            </td>
+            <td class="jobb">
+              <div *ngFor="let item of bicikliList">
+                <p class="nev">{{item.nev}}</p>
+                <p class="ar">{{item.nettoAr}} Ft,   {{item.keszlet}} db készleten   kosar</p>
+                <p class="tulajd">
+                  {{item.tipus}}, {{item.meret}}col, {{item.szin}},
+                  {{item.sebessegElol}}x{{item.sebessegHatul}} váltó,
+                  {{item.fek}}, teleszkóp: {{item.teleszkop}}, {{item.vaz}}
+                </p>
+                <p class="leir">{{item.leiras}}</p>
+              </div>
+            </td>
+          </tr>
+        </table>
+</body>
+</html>

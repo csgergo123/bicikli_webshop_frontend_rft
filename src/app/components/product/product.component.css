@@ -1,0 +1,29 @@
+* {
+  background-color: #93c17d;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td {
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+p.nev {
+    font-size: 2.5em;
+}
+
+p.ar {
+    font-size: 2em;
+}
+
+p.tulajd {
+    font-size: 1.4em;
+}
+
+p.leir {
+    font-size: 1.2em;
+}

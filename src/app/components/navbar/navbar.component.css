@@ -1,0 +1,105 @@
+* {
+    background-color: #bff986;
+    height: 6.5em;
+}
+
+.name {
+    font-size: 5em;
+    font-family: Rage;
+    color: black;
+    text-decoration: none;
+}
+
+.cart {
+    font-size: 3.5em;
+    color: black;
+    height: 1em;
+    width: 0.1em;
+    position: absolute;
+    top: 0.4em;
+    right: 4.5em;
+    text-decoration: none;
+}
+
+.guy {
+    font-size: 3em;
+    color: black;
+    height: 1em;
+    width: 0.1em;
+    position: absolute;
+    top: 0.4em;
+    right: 3.5em;
+    text-decoration: none;
+}
+
+.exitbutton {
+  font-size: 1.5em;
+  color: black;
+  background-color: #5aa000;
+  height: 1.5em;
+  width: 4em;
+  position: absolute;
+  top: 1.3em;
+  right: 0.5em;
+}
+
+/*
+* {
+    background-color: #d1eef0;
+}
+
+.breadcrumb {
+    height: 50px;
+    background-color: #d1eef0;
+}
+
+ol.breadcrumb {
+    font-size: 20px;
+    padding: 15px 16px;
+    list-style: none;
+    background-color: #d1eef0;
+  }
+
+ol.breadcrumb li+li:before {
+    padding: 10px;
+    font-size: 50px;
+    color: black;
+    content: "/\00a0";
+  }
+
+.emberfej {
+    font-size: 40px;
+}
+
+.changeit {
+    font-size: 40px;
+    padding-top: 7px;
+    padding-right: 10px;
+    opacity: 60%;
+    color: black;
+}
+
+.changeit:hover {
+    opacity: 100%;
+}
+
+.emberfej2 {
+    padding-top: 10px;
+    padding-right: 5px;
+    font-size: 20px;
+}
+
+#basicExampleNav9 {
+    margin-left: -200px;
+    margin-top: 0px;
+    border-color: black;
+}
+
+#kereso {
+    background-color: darkcyan;
+    color: black;
+}
+
+::placeholder {
+    color: black;
+}*/
