@@ -5,12 +5,10 @@
     "\\src\\app",
     "\\src\\app\\app-routing",
     "\\src\\app\\components",
-    "\\src\\app\\components\\filter",
-    "\\src\\app\\components\\home",
     "\\src\\app\\components\\navbar",
     "\\src\\app\\components\\product",
     "\\src\\app\\localdata"
   ],
-  "SelectedNode": "\\src\\app\\app.module.ts",
+  "SelectedNode": "\\src\\app\\components\\product\\product.component.css",
   "PreviewInSolutionExplorer": false
 }

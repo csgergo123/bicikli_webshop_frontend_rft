@@ -27,3 +27,11 @@ p.tulajd {
 p.leir {
     font-size: 1.2em;
 }
+
+.button {
+  font-size: 1em;
+  color: black;
+  background-color: #5aa000;
+  height: 1.5em;
+  width: 4.2em;
+}
