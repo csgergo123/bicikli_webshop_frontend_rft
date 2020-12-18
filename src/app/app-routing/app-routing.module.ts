@@ -6,6 +6,7 @@ import { HomeComponent } from './../components/home/home.component';
 import { ProfileComponent } from './../components/profile/profile.component';
 import { FilterComponent } from './../components/filter/filter.component';
 import { ProductComponent } from './../components/product/product.component';
+import { CartComponent } from './../components/cart/cart.component';
 
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router'
@@ -17,7 +18,8 @@ const appRoutes: Routes = [
   { path: 'home', component: HomeComponent, canActivate: [AuthGuard] },
   { path: 'profile', component: ProfileComponent, canActivate: [AuthGuard] },
   { path: 'filter', component: FilterComponent, canActivate: [AuthGuard] },
-  { path: 'product', component: ProductComponent, canActivate: [AuthGuard] }
+  { path: 'product', component: ProductComponent, canActivate: [AuthGuard] },
+  { path: 'cart', component: CartComponent },
 ]
 
 @NgModule({

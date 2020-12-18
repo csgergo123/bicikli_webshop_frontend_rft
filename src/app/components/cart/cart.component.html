@@ -1,0 +1,56 @@
+<app-navbar></app-navbar>
+<html>
+    <head>
+    </head>
+    <body>
+      <div hidden>{{calcTotal()}}</div>
+      <div *ngIf="!EmptyCart; else NullCart">
+        <div class="cart-div">
+          <div class="cart-label">
+            <div class="termek">Termék</div>
+            <div class="darabszam">Darab</div>
+            <div class="osszeg">Összeg</div>
+          </div>
+          <div class="cart-item" *ngFor="let item of items">
+            <span class="termek"><div style="font-weight: bold;">{{ item.nev }}</div></span>
+            <span class="darabszam">1 db</span>
+            <span class="osszeg">{{ item.nettoAr }} Ft</span>
+          </div>
+          <div class="cart-bottom">
+            <div class="vegosszeg">{{calcTotal()}} db termék végösszege: {{Totals()}} Ft</div>
+          </div>
+        </div>
+        <div class="order-title">Rendelés</div>
+        <form [formGroup]="checkoutForm" (ngSubmit)="onSubmit(checkoutForm.value)">
+          <div>
+            <label for="name">
+              Teljes név
+            </label>
+            <input id="name" type="text" formControlName="name">
+          </div>
+          <div>
+            <label for="address">
+              Cím
+            </label>
+            <input id="address" type="text" formControlName="address">
+          </div>
+          <div>
+            <label for="email">
+              E-mail cím
+            </label>
+            <input id="email" type="email" formControlName="email">
+          </div>
+          <div>
+            <label for="telefon">
+              Telefonszám
+            </label>
+            <input id="telefon" type="tel" formControlName="telefon">
+          </div>
+          <button class="myButton" type="submit">Rendelés elküldése</button>
+        </form>  
+      </div>
+      <ng-template #NullCart>
+        <div class="ureskosar"><span>Kosár tartalma jelenleg üres.</span></div>
+      </ng-template>
+    </body>
+</html>

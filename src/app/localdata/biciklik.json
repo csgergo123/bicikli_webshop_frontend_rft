@@ -14,7 +14,7 @@
     "nettoAr": 99990
   },
   {
-    "nev": "Triban országúti RC 100",
+    "nev": "Triban országúti RC 101",
     "leiras": "Kerékpár kezdőknek: Széles gumiköpeny, egyszerűsített váltás, egytányér, hajlított kormány.Sík, vagy enyhén emelkedős terepre ideális.",
     "tipus": "ORSZAGUTI",
     "meret": 21,
@@ -24,7 +24,7 @@
     "fek": "Tektro RL 340 fékkar",
     "teleszkop": "nincs",
     "vaz": "6061 alumínium váz",
-    "keszlet": 5,
-    "nettoAr": 99990
+    "keszlet": 4,
+    "nettoAr": 89990
   }
 ]

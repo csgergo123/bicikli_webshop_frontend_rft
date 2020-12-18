@@ -1,0 +1,125 @@
+body {
+    background-color: #93c17d;
+    text-align: center;
+}
+.cart-div {
+    width:  900px;
+    padding: 2em 0;
+    margin: 0 auto;
+    display: inline-block;
+}
+.termek {
+    width: calc(60% - 20px);
+    float: left;
+    text-align: left;
+}
+.darabszam {
+    width: calc(15% - 20px);
+    float: left;
+}
+.osszeg {
+    width: calc(25% - 20px);
+    float: left;
+    text-align: right;
+}
+.cart-label > div {
+    background-color: #5aa000;
+    padding: 15px 10px;
+}
+.cart-bottom .vegosszeg {
+    background-color: #5aa000;
+    padding: 15px 10px;
+    font-weight:  bold;
+    text-align: center;
+}
+.cart-bottom {
+    width: 100%;
+    float: left;
+}
+.cart-label {
+    text-align: center;
+    font-weight:  bold;
+    display: inline-block;
+    width: 100%;;
+}
+.cart-item span.termek {
+    text-align: left;
+}
+.cart-item span.osszeg {
+    text-align: right;
+}
+.cart-item:last-of-type span {
+    border-bottom: none !important;
+}
+.cart-item span {
+    text-align: center;
+    padding: 10px 10px;
+    border-bottom: 1px solid #5aa000;
+}
+.ureskosar span{
+    width: 900px;
+    padding: 30px 10px;
+    margin: 2em auto;
+    font-weight: bold;
+    font-size: 1.2em;
+    background: #5aa000;
+    display: inline-block;
+    border-radius: 20px;
+    border: 1px solid #ddd;
+}
+form {
+    width: 900px;
+    display: block;
+    margin: 0 auto;
+    border-left: 2px solid #5aa000;
+    border-right: 2px solid #5aa000;
+    padding-top: 25px;
+}
+.order-title {
+    display: block;
+    margin: 0 auto;
+    border-radius: 15px 15px 0 0;
+    width: calc(900px - 16px);
+    background-color: #5aa000;
+    padding: 15px 10px;
+    font-weight: bold;
+    text-align: center;
+}
+.myButton {
+	background-color:#5aa000;
+	border-radius: 0;
+	border: 1px solid #5aa000;
+    display: inline-block;
+    width: 100%;
+	cursor: pointer;
+	font-weight: bold;
+	font-size: 18px;
+	padding: 15px 10px;
+    text-decoration:none;
+    margin-top: 10px;
+}
+.myButton:hover {
+	opacity: 0.9;
+}
+label {
+    width: 80%;
+    display: block;
+    padding: 11px 5px;
+    text-align: center;
+    margin: 0 auto;
+    background: #5aa000;
+    border-radius: 5px 5px 0 0;
+    font-weight: 500;
+    border: 1px solid #5aa000;
+    border-bottom: none;
+}
+input {
+    border: 1px solid #5aa000;
+    width: 80%;
+    display: inline-block;
+    margin: 0 auto 15px auto;
+    padding: 10px 5px;
+    text-align: center;
+    text-align-last: center;
+    font-size: 16px;
+}

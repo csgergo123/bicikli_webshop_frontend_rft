@@ -21,6 +21,24 @@
     text-decoration: none;
 }
 
+.counter {
+    position: absolute;
+    color: black;
+    text-decoration: none;
+    top: 0.7em;
+    right: 12em;
+    height: 20px;
+    width: 20px;
+    background: #5aa000;
+    border-radius: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    font-weight: bold;
+}
+
 .guy {
     font-size: 3em;
     color: black;

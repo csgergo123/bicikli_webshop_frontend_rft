@@ -5,7 +5,7 @@
 </head>
 <body>
   <a class="name" routerLink="/home">RFT Biciklishop</a>
-  <a class="material-icons cart" routerLink="/home">shopping_cart</a>
+  <a class="material-icons cart" routerLink="/cart">shopping_cart</a><a routerLink="/cart" class="counter">{{calcTotal()}}</a>
   <a class="guy" routerLink="/profile"><fa-icon [icon]="faUser" class="emberfej"></fa-icon></a>
   <button class="exitbutton" (click)="logout()">Kilépés</button>
 
